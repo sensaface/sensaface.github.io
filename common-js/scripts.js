@@ -13,10 +13,10 @@
 	//ROUNDED TIMES COUNTDOWN
 	
 	if(isExists('#rounded-countdown')){
-		var remainingSec = $('.countdown').data('remaining-sec');
+		// var remainingSec = $('.countdown').data('remaining-sec');
 		$('.countdown').ClassyCountdown({
 			theme: "flat-colors-very-wide",
-			end: $.now() + remainingSec
+			end: new Date("2022-07-01").getTime()
 		});
 	}
 	
