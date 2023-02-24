@@ -16,7 +16,7 @@
 		// var remainingSec = $('.countdown').data('remaining-sec');
 		$('.countdown').ClassyCountdown({
 			theme: "flat-colors-very-wide",
-			end: new Date("2023-07-01").getTime()
+			end: new Date("2023-07-01").getTime()/1000
 		});
 	}
 	
